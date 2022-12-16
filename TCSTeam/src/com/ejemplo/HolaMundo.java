@@ -12,6 +12,8 @@ public class HolaMundo {
 			System.out.println("Otro cambio inconsistente");
 			System.out.println("Otro cambio, y otro cambio");
 			System.out.println("Otro cambio, Alexis estubo aqui");
+			System.out.println("Otro cambio, Amaury tambien estubo aqui");
+			
 	}
 
 }

@@ -6,7 +6,7 @@ public class TiposDeDatos {
 
 		/**********
 		 * TIPOS DE DATOS PRIMITIVOS*************
-		 * 
+		 *  
 		 * 
 		 * Sus rangos estan directamente relacionados con los bits que ocupan
 		 *

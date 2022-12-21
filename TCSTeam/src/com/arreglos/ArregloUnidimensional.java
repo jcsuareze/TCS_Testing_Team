@@ -25,8 +25,8 @@ public class ArregloUnidimensional {
 		//Lee los valores de a y los almacena en savedValue
 		// for( valor del arreglo y donde se almacena  : arreglo)
 		
-		//for(int savedValue : a)
-		for(var savedValue : a) {
+		for(int savedValue : a) {
+		//for(var savedValue : a) {
 			
 			System.out.println(savedValue);
 		}

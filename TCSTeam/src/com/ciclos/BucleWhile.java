@@ -1,4 +1,4 @@
-package com.arreglos;
+package com.ciclos;
 
 public class BucleWhile {
 

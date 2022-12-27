@@ -60,7 +60,7 @@ public class ScrolldownYRadioBtn {
 		System.out.println("Esta habilitado? "+ radioBtnMale.isEnabled());
 		System.out.println("Esta seleccionado? "+ radioBtnMale.isSelected());
 		radioBtnMale.click();
-		Thread.sleep(3000);
+		Thread.sleep(3000); // mala practica 
 		System.out.println("Esta seleccionado? "+ radioBtnMale.isSelected());
 		
 

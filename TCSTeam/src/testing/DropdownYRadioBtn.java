@@ -63,7 +63,7 @@ public class DropdownYRadioBtn {
 		Thread.sleep(3000); // mala practica 
 		System.out.println("Esta seleccionado? "+ radioBtnMale.isSelected());
 		
-
+		
 		driver.quit();
 	}
 

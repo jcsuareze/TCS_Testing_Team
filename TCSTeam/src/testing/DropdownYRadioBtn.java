@@ -1,5 +1,7 @@
 package testing;
 
+
+
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -13,7 +15,7 @@ public class DropdownYRadioBtn {
 	public static void main(String[] args) throws InterruptedException {
 		
 
-		System.setProperty("webdriver.chrome.driver","C://DriversVarios//chromedriver_win32//chromedriver.exe" );
+		System.setProperty("webdriver.chrome.driver","C://Drivers//chromedriver_win32//chromedriver.exe" );
 		
 		WebDriver driver = new ChromeDriver();
 		
@@ -35,6 +37,18 @@ public class DropdownYRadioBtn {
 		//System.out.println("El codigo fuente de la pagina es: "+ codigoFte);
 		driver.findElement(By.xpath("//input[@id=\"RESULT_TextField-4\"]"));
 		
+		driver.findElement(By.xpath("//input[@id=\"RESULT_TextField-3\"]")).sendKeys("1234567890");
+		
+		driver.findElement(By.xpath("//input[@id=\"RESULT_TextField-4\"]")).sendKeys("Mexico");
+		
+		driver.findElement(By.xpath("//input[@id=\"RESULT_TextField-5\"]")).sendKeys("Gdl");
+		
+		driver.findElement(By.xpath("//input[@id=\"RESULT_TextField-6\"]")).sendKeys("amaury@user.com");
+		
+		WebElement checkbox = driver.findElement(By.xpath("//*[@id=\"q15\"]/table/tbody/tr[1]/td"));
+		
+		checkbox.click();
+		
 		
 		Select dropdown = new Select(driver.findElement(By.xpath("//select[@id=\"RESULT_RadioButton-9\"]")));
 		
@@ -50,9 +64,7 @@ public class DropdownYRadioBtn {
 		dropdown.selectByIndex(1);
 		dropdown.selectByVisibleText("Evening");
 		
-		
-		
-		
+	
 		//input[@id='RESULT_RadioButton-7_0']
 		WebElement radioBtnMale = driver.findElement(By.xpath("//*[@id=\"q26\"]/table/tbody/tr[1]/td"));
 		

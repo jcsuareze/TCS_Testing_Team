@@ -27,7 +27,7 @@ public class DropdownYRadioBtn {
 		String title = driver.getTitle();
 		String strURL = driver.getCurrentUrl();
 		
-		System.out.println("El titulo de la pagina es: "+ title);
+		System.out.println("El nombre de la pagina es: "+ title);
 		System.out.println("La URL de la pagina es:  "+ strURL);
 		
 		String codigoFte = driver.getPageSource();
@@ -63,7 +63,7 @@ public class DropdownYRadioBtn {
 		Thread.sleep(3000); // mala practica 
 		System.out.println("Esta seleccionado? "+ radioBtnMale.isSelected());
 		
-
+		
 		driver.quit();
 	}
 

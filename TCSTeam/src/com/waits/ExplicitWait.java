@@ -25,7 +25,7 @@ public class ExplicitWait {
 		
 		WebElement userName = miEspera.until(ExpectedConditions.visibilityOfElementLocated(By.name("userName")));
 		userName.sendKeys("Juancarlos");
-		
+	
 		WebElement passwordTxt = miEspera.until(ExpectedConditions.visibilityOfElementLocated(By.name("password")));
 		passwordTxt.sendKeys("miPassword");
 		

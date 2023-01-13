@@ -29,9 +29,9 @@ public class LoginTest_Orange {
 		/*WebElement userNameTxt = driver.findElement(By.name("username"));
 		userNameTxt.sendKeys("Admin");*/
 		
-				
-		driver.findElement(By.name("username")).sendKeys("Admin");  // Interactua con el webElement y envia texto
 		
+		driver.findElement(By.name("username")).sendKeys("Admin");  // Interactua con el webElement y envia texto
+	
 		driver.findElement(By.name("password")).sendKeys("admin123");	
 		
 		

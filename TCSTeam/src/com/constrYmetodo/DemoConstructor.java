@@ -14,8 +14,8 @@ public class DemoConstructor {
 	
 	DemoConstructor(int a, int b){
 		
-		x = a;
-		y = b;
+		this.x = a;
+		this.y = b;
 		
 	}
 	

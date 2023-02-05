@@ -14,7 +14,7 @@ class Child1 extends Parent {
 
 	int y;
 
-	void show() {
+	void show1() {
 		System.out.println(y);
 	}
 
@@ -23,7 +23,7 @@ class Child1 extends Parent {
 class Child2 extends Parent{
 	
 	int y;
-	void show() {
+	void show2() {
 		System.out.println(y);
 	}
 }
@@ -36,13 +36,13 @@ public class Herencia {
 		objetoChild1.a = 10;
 		objetoChild1.display();
 		objetoChild1.y = 200;
-		objetoChild1.show();
+		objetoChild1.show1();
 		
 		Child2 objetoChild2 = new Child2();
 		objetoChild2.a = 50;
 		objetoChild2.display();
 		objetoChild2.y = 300;
-		objetoChild2.show();
+		objetoChild2.show2();
 		
 	}
 }

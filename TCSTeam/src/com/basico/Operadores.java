@@ -19,7 +19,7 @@ public class Operadores {
 		// Operadores relacionales (Operadores de comparacion) ---> == < > <= >= !=
 		// Siempre regresan un valor boleano
 		System.out.println("----------------------Operadores relacionales------------------");
-		System.out.println(a == b); // false
+		System.out.println(a == b);// false
 		System.out.println(a > b); // false
 		System.out.println(a < b); // true
 		System.out.println(a >= b); // false

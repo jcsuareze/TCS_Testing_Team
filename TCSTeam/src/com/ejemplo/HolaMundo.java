@@ -7,6 +7,7 @@ public class HolaMundo {
 
 		// Autocompletar CRTL + Espacio
 		// Darle formato CRTL + SHIFT + F
+		//Navegar a la clase (Abrir declaracion)  CTRL + Click
 		
 		// Sacar Xpath Relativo
 		//    //nomAtributo [@atributo = 'valorAtributo']

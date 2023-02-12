@@ -49,7 +49,7 @@ public class LoginTest_Orange {
 		}
 		
 		
-		//driver.close();   Cierra el navegador
+		driver.close();   //Cierra el navegador
 		driver.quit();    //Cierra sesion
 		
 		

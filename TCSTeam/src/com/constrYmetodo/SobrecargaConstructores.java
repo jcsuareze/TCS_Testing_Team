@@ -25,7 +25,7 @@ public class SobrecargaConstructores {
 	
 	public static void main(String[] args) {
 		
-		SobrecargaConstructores objeto = new SobrecargaConstructores(86,6,8);
+		SobrecargaConstructores objeto = new SobrecargaConstructores(86.5,8);
 		
 		
 	}

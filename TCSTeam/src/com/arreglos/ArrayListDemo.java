@@ -15,15 +15,22 @@ public class ArrayListDemo {
 		list.add(100);
 		list.add('A');
 		list.add("Amaury");
+		list.add(null);
+		list.add("Alan");
 		
-		//System.out.println(list.size());
+		
+		
+		
+		
+		System.out.println(list.size());
 		
 		list.remove(2);
 		//System.out.println(list.size());
 		
 		//list.add(list);
 		
-		for(Object valores: list)
+		for(Object valores: list
+				)
 			System.out.println(valores);
 		
 		
